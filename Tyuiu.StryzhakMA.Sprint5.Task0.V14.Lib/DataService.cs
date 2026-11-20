@@ -10,7 +10,7 @@ namespace Tyuiu.StryzhakMA.Sprint5.Task0.V14.Lib
             double y = (4 * Math.Pow(x, 3)) / (Math.Pow(x, 3) - 1);
             y = Math.Round(y, 3);
             string path = Path.Combine(Path.GetTempPath(),"OutPutFileTask0.txt");
-            File.WriteAllText(path, y.ToString(System.Globalization.CultureInfo.InvariantCulture));
+            File.WriteAllText(path, y.ToString());
             return path;
         }
     }
