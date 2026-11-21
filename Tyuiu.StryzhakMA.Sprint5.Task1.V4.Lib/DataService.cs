@@ -28,7 +28,7 @@ namespace Tyuiu.StryzhakMA.Sprint5.Task1.V4.Lib
 
                     y = Math.Round(y, 2);
 
-                    writer.WriteLine(x + " " + y);
+                    writer.WriteLine(y);
                 }
             }
 
