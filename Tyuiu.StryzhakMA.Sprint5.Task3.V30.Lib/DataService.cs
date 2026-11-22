@@ -18,7 +18,8 @@ namespace Tyuiu.StryzhakMA.Sprint5.Task3.V30.Lib
                 writer.Write(y); 
             }
 
-            return y.ToString().Replace('.', ',');
+            byte[] fileBytes = File.ReadAllBytes(path);
+            return Convert.ToBase64String(fileBytes);
         }
     }
 }
