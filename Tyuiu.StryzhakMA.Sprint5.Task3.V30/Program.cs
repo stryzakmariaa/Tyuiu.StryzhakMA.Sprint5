@@ -35,7 +35,7 @@ namespace Tyuiu.StryzhakMA.Sprint5.Task3.V30
 
             string res = ds.SaveToFileTextData(x);
 
-            Console.WriteLine("[" + res + "]");
+            Console.WriteLine("y = " + res);
 
             string filePath = Path.Combine(Path.GetTempPath(), "OutPutFileTask3.bin");
             Console.WriteLine("Файл создан! " + filePath);
